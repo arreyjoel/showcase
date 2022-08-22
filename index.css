@@ -85,14 +85,29 @@ form {
   margin: 0 auto;
 }
 fieldset{
+    padding: 2rem 0;
     border: 0;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid #3b3b4f;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+.inline {
+  width: unset;
+
+}
+fieldset:last-of-type {
+  border-bottom: none;
 }
 a{
     color:chartreuse
 }
 label {
     display: block;
+    margin: 0.5rem 0;
 }
 @media screen and (min-width: 800px) and (max-width: 1024px){
     .btn{
