@@ -5,6 +5,19 @@ body{
     font-family: 'Open Sans','Helvetica Neuue',Helvetica, sans-serif;
     line-height: 1.45;
 }
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+}
+
+.menu {
+  display:flex;
+  border: 1px;  /* For debugging */
+  /*width: 1000px;*/
+  justify-content: right;
+  gap: 8px;
+}
 header{
     color: #ffffff;
     background-color: #284b63;
@@ -69,7 +82,7 @@ footer li a:hover{
     color: #ffffff;
 }
 body#page2{
-    width: 100%;
+  width: 100%;
   height: 100vh;
   margin: 0;
   background-color:#284b63;
@@ -108,6 +121,15 @@ a{
 label {
     display: block;
     margin: 0.5rem 0;
+}
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-color:white;
+
 }
 @media screen and (min-width: 800px) and (max-width: 1024px){
     .btn{
