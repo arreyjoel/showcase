@@ -124,7 +124,7 @@ label {
 }
 input[type="submit"] {
   display: block;
-  width: 100%;
+  width: fit-content;
   margin: 0 auto;
   height: 2em;
   font-size: 1.1rem;
